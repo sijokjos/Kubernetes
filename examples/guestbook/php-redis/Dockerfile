@@ -1,4 +1,4 @@
-FROM php:5-apache
+FROM php:8-apache
 
 RUN pear channel-discover pear.nrk.io
 RUN pear install nrk/Predis
